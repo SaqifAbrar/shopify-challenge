@@ -1,8 +1,7 @@
-import React, { useEffect, useState, useContext } from "react";
+import React, { useEffect, useState } from "react";
 import PostCard from "../../common/components/postCard";
 import SkeletonCard from "../../common/components/skeletonCard";
 import axios from "axios";
-import { ApodContext } from "./contexts/apodContext";
 
 export default function ApodSection() {
 	const [post, setPost] = useState({});
