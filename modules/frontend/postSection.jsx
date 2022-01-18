@@ -1,5 +1,12 @@
 import React from "react";
+import ApodSection from "./apodSection";
 
 export default function postSection() {
-	return <div></div>;
+	return (
+		<div className='posts-container'>
+			<div className='posts-wrapper'>
+				<ApodSection />
+			</div>
+		</div>
+	);
 }
