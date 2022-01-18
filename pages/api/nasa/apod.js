@@ -9,7 +9,7 @@ export default async function apod(req, res) {
 		);
 		res.status(200).json(apodData.data);
 	} catch (e) {
-		/* You can log errors through SENTRY */
+		/* You can log errors using the e object */
 		res.json(e);
 	}
 }
