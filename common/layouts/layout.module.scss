@@ -1,0 +1,11 @@
+.website {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+}
+
+.defaultMain {
+	width: 70%;
+	height: inherit;
+	background-color: $black;
+}

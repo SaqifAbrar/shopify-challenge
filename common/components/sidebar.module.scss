@@ -1,3 +1,16 @@
 .sidebarContainer {
 	width: 30%;
+	top: 0;
+	position: sticky;
+	height: 100vh;
+	color: $primary-font-color;
+	background-color: $nero;
+
+	ul {
+		list-style-type: none;
+	}
+
+	li {
+		width: auto;
+	}
 }

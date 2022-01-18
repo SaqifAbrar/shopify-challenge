@@ -1,12 +1,16 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+import React, { useEffect, useState, useContext } from "react";
 import PostCard from "../../common/components/postCard";
+import SkeletonCard from "../../common/components/skeletonCard";
+import axios from "axios";
+import { ApodContext } from "./contexts/apodContext";
 
 export default function ApodSection() {
 	const [post, setPost] = useState({});
+	//const post = useContext(ApodContext);
 
 	useEffect(() => {
-		/* prevent race conditions with nested async function */
+		console.log("test");
+		// prevent race conditions with nested async function
 		async function fetchData() {
 			const apodPost = await axios
 				.get("/api/nasa/apod")
@@ -17,24 +21,44 @@ export default function ApodSection() {
 		fetchData();
 	}, []);
 
+	const postIsEmpty = () => {
+		return Object.keys(post).length === 0 && post.constructor === Object;
+	};
+
 	const { date, explanation, hdurl, title, url } = post;
 
 	return (
 		<>
+			{console.log(url)}
 			<section className='apod-container'>
 				<div className='apod-wrapper'>
 					<h1 className='apod-header'>Astrology Picture of the Day</h1>
-					<PostCard
-						image={url}
-						hdImage={hdurl}
-						description={explanation}
-						date={date}
-						title={title}
-					/>
+					{/* {<SkeletonCard />} */}
+					{/*
+						<PostCard
+							image={url}
+							hdImage={hdurl}
+							description={explanation}
+							date={date}
+							title={title}
+						/>
+					*/}
+					{postIsEmpty() ? (
+						<SkeletonCard />
+					) : (
+						<PostCard
+							image={url}
+							hdImage={hdurl}
+							description={explanation}
+							date={date}
+							title={title}
+						/>
+					)}
 				</div>
 			</section>
 			<style jsx>{`
 				.apod-header {
+					padding: 5% 0;
 					text-align: center;
 				}
 			`}</style>

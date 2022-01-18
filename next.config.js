@@ -1,3 +1,4 @@
+const path = require("path");
 module.exports = {
 	reactStrictMode: true,
 	redirects: async () => {
@@ -8,5 +9,9 @@ module.exports = {
 				permanent: true,
 			},
 		];
+	},
+	sassOptions: {
+		includePaths: [path.join(__dirname, "styles")],
+		prependData: `@import "_variables.scss";`,
 	},
 };

@@ -1,0 +1,58 @@
+$border-radius: 2.5vw;
+
+.skeletonContainer {
+	width: 100%;
+	color: $primary-font-color;
+	background-color: $charcoal;
+	border-radius: $border-radius;
+}
+
+.skeletonImg {
+	width: inherit;
+	aspect-ratio: 16 / 9;
+	background-color: $dim-grey;
+	border-radius: $border-radius $border-radius 0px 0px;
+}
+
+.skeletonText {
+	padding: 2.5% 5%;
+
+	h2 {
+		height: $default-header-size;
+		margin-bottom: 1%;
+	}
+
+	p {
+		width: 40%;
+		height: $default-text-size;
+		margin-bottom: 2.5%;
+	}
+
+	p:last-child {
+		width: 100%;
+		height: 20vw;
+	}
+}
+
+.skeletonImg,
+.skeletonText > * {
+	animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+	0% {
+		background-color: #9ccddc;
+	}
+
+	33% {
+		background-color: #5491a8;
+	}
+
+	67% {
+		background-color: #044569;
+	}
+
+	100% {
+		background-color: #072c43;
+	}
+}

@@ -2,7 +2,10 @@ $border-radius: 2.5vw;
 
 .postContainer {
 	width: 100%;
-	border: solid;
+	display: flex;
+	flex-direction: column;
+	color: $primary-font-color;
+	background-color: $charcoal;
 	border-radius: $border-radius;
 }
 
@@ -16,6 +19,50 @@ $border-radius: 2.5vw;
 	}
 }
 
+.contentContainer {
+	padding: 2.5% 5%;
+}
+
 .textContainer {
-	padding: 0 5%;
+	h2 {
+		padding-bottom: 1%;
+	}
+
+	p {
+		padding-bottom: 2.5%;
+	}
+}
+
+.heartContainer {
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	cursor: pointer;
+	transition: color 0.2s ease-out;
+	font-size: $smaller-header-size;
+
+	p {
+		margin: 0 2%;
+	}
+}
+
+.liked {
+	color: #ff6861;
+	transition: color 0.3s ease-in;
+	animation: like 0.2s linear forwards;
+}
+
+@keyframes like {
+	0% {
+		font-size: $smaller-header-size;
+	}
+
+	60% {
+		font-size: calc($smaller-header-size + 0.5rem);
+	}
+
+	100% {
+		font-size: $smaller-header-size;
+	}
 }
