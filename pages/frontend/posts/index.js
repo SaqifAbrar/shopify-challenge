@@ -1,9 +1,9 @@
 import React from "react";
 import Layout from "../../../common/layouts/layout";
-import Sidebar from "../../../common/components/sideBar";
+//import Sidebar from "../../../common/components/sideBar";
 import PostSection from "../../../modules/frontend/postSection";
-import { ApodContext } from "../../../modules/frontend/contexts/apodContext";
-import axios from "axios";
+//import { ApodContext } from "../../../modules/frontend/contexts/apodContext";
+//import axios from "axios";
 
 export default function Posts({ apodData }) {
 	return <PostSection />;
