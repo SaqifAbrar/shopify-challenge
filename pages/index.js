@@ -14,16 +14,16 @@ export default function Home() {
 
 			<main className={styles.main}>
 				<h1 className={styles.title}>
-					Welcome to Saqif Abrar's Shopify Challenge!
+					{`Welcome to Saqif Abrar's Shopify Challenge!`}
 				</h1>
 
 				<p className={styles.description}>
 					<code className={styles.code}>
-						Hacker saqif = new Hacker("Saqif", "Abrar", "full-stack developer");
+						{`Hacker saqif = new Hacker("Saqif", "Abrar", "full-stack developer");`}
 					</code>
 					<br />
-					I'm passionate about programming on all ends to become a more well
-					rounded developer.
+					{`I'm passionate about programming on all ends to become a more well
+					rounded developer.`}
 				</p>
 
 				<div className={styles.grid}>
@@ -38,19 +38,6 @@ export default function Home() {
 					</a>
 				</div>
 			</main>
-
-			<footer className={styles.footer}>
-				<a
-					href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-					target='_blank'
-					rel='noopener noreferrer'
-				>
-					Powered by{" "}
-					<span className={styles.logo}>
-						<Image src='/vercel.svg' alt='Vercel Logo' width={72} height={16} />
-					</span>
-				</a>
-			</footer>
 		</div>
 	);
 }
