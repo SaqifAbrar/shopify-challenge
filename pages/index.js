@@ -27,9 +27,9 @@ export default function Home() {
 				</p>
 
 				<div className={styles.grid}>
-					<a href='https://nextjs.org/docs' className={styles.card}>
+					<a href='' className={styles.card}>
 						<h2>Backend &rarr;</h2>
-						<p>Shopify Backend Intern Challenge</p>
+						<p>{`Shopify Backend Intern Challenge <UPDATING>`}</p>
 					</a>
 
 					<a href='/frontend' className={styles.card}>
