@@ -1,14 +1,17 @@
 import React from "react";
 import styles from "./postCard.module.scss";
 
-export default function PostCard(props) {
-	console.log(props);
+export default function PostCard({ image, title, description, date }) {
 	return (
-		<div className={styles.postContainer}>
+		<article className={styles.postContainer}>
 			<div className={styles.imgContainer}>
-				<img src={props.image} alt='' />
+				<img src={image} alt='' />
 			</div>
-			<div className='textContainer'></div>
-		</div>
+			<div className='textContainer'>
+				<h2>{title}</h2>
+				<p>{date}</p>
+				<p>{description}</p>
+			</div>
+		</article>
 	);
 }
