@@ -8,7 +8,6 @@ export default function ApodSection() {
 	//const post = useContext(ApodContext);
 
 	useEffect(() => {
-		console.log("test");
 		// prevent race conditions with nested async function
 		async function fetchData() {
 			const apodPost = await axios
@@ -28,7 +27,6 @@ export default function ApodSection() {
 
 	return (
 		<>
-			{console.log(url)}
 			<section className='apod-container'>
 				<div className='apod-wrapper'>
 					<h1 className='apod-header'>Astrology Picture of the Day</h1>
