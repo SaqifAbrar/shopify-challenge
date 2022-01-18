@@ -7,7 +7,7 @@ export default function PostCard({ image, title, description, date }) {
 			<div className={styles.imgContainer}>
 				<img src={image} alt='' />
 			</div>
-			<div className='textContainer'>
+			<div className={styles.textContainer}>
 				<h2>{title}</h2>
 				<p>{date}</p>
 				<p>{description}</p>

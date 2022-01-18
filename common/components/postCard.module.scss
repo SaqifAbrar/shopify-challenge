@@ -1,12 +1,21 @@
+$border-radius: 2.5vw;
+
 .postContainer {
 	width: 100%;
+	border: solid;
+	border-radius: $border-radius;
 }
 
 .imgContainer {
 	width: inherit;
-
+	border-radius: inherit;
 	img {
 		width: 100%;
 		height: auto;
+		border-radius: $border-radius $border-radius 0px 0px;
 	}
+}
+
+.textContainer {
+	padding: 0 5%;
 }

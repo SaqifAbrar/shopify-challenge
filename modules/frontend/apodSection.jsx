@@ -20,17 +20,24 @@ export default function ApodSection() {
 	const { date, explanation, hdurl, title, url } = post;
 
 	return (
-		<section className='apod-container'>
-			{/* */}
-			<div className='apod-wrapper'>
-				<PostCard
-					image={url}
-					hdImage={hdurl}
-					description={explanation}
-					date={date}
-					title={title}
-				/>
-			</div>
-		</section>
+		<>
+			<section className='apod-container'>
+				<div className='apod-wrapper'>
+					<h1 className='apod-header'>Astrology Picture of the Day</h1>
+					<PostCard
+						image={url}
+						hdImage={hdurl}
+						description={explanation}
+						date={date}
+						title={title}
+					/>
+				</div>
+			</section>
+			<style jsx>{`
+				.apod-header {
+					text-align: center;
+				}
+			`}</style>
+		</>
 	);
 }
