@@ -4,6 +4,11 @@ module.exports = {
 	redirects: async () => {
 		return [
 			{
+				source: "/backend",
+				destination: "/backend/ims",
+				permanent: true,
+			},
+			{
 				source: "/frontend",
 				destination: "/frontend/posts",
 				permanent: true,

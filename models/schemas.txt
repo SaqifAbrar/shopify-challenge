@@ -1,0 +1,20 @@
+While I couldn't implement the database because of limited time, I laid out this folder to explain the 
+project structure. A models folder can centralize schemas required for the inventory managment system and 
+can be further broken down into more folders for organizational purposes under the case that more data 
+management is required when scaling the app.
+
+a quick example would be...
+
+const ItemSchema = new mongoose.schema({
+  name: {
+    string: String,
+    required: [true, 'Item name required'],
+    ... so on
+  },
+  description: {
+
+  },
+  ...so on
+})
+
+module.exports = mongoose.models.Item || mongoose.model('Item', ItemSchema)

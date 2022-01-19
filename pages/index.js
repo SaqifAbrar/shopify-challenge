@@ -27,7 +27,7 @@ export default function Home() {
 				</p>
 
 				<div className={styles.grid}>
-					<a href='' className={styles.card}>
+					<a href='/backend' className={styles.card}>
 						<h2>Backend &rarr;</h2>
 						<p>{`Shopify Backend Intern Challenge <UPDATING>`}</p>
 					</a>
