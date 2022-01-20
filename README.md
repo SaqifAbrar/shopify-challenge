@@ -17,6 +17,8 @@
 
 ## Frontend Challenge Features
 
+[Frontend Challenge Link](https://docs.google.com/document/d/13zXpyrC2yGxoLXKktxw2VJG2Jw8SdUfliLM-bYQLjqE/edit#)
+
 ### Image Optimization
 I spent some time to optimize the image, shrinking down file size making the app feel more responsive, quicker and less data demanding for all the requests
 
@@ -35,6 +37,9 @@ A cool spacey blue loading animation for the post's skeleton while post(s) are l
 [!loading animation](https://github.com/SaqifAbrar/shopify-challenge/blob/main/readme/skeleton-load.gif)
 
 ## Backend Challenge Notes
+
+[Backend Challenge Link](https://docs.google.com/document/d/1z9LZ_kZBUbg-O2MhZVVSqTmvDko5IJWHtuFmIu_Xg1A/edit)
+
 1. Please use Google Chrome for the best experience possible. Due to time constraints, front-end component logic is a little rushed.
 2. A database was not used (also for time constraints) and I used [Fake Store API](https://fakestoreapi.com/) as a mock database for CRUD functionality
 3. You may have to refresh upon entering the backend challenge for the items to render
