@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Shopify Developer Challenges
 
-## Getting Started
+###Table of Contents
+Prerequisites
+Installation
+Frontend Challenge Features
+Backend Challenge Notes
 
-First, run the development server:
+## Prerequisites
+1. Node.JS & npm must be installed (latest version recommended)
+2. create-next-app should be installed (see Installation Instruction)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Installation Instruction
+1. run npm install in your terminal
+2. run npm run dev
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Frontend Challenge Features
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Image Optimization
+I spent some time to optimize the image, shrinking down file size making the app feel more responsive, quicker and less data demanding for all the requests
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+#### Before optimized APOD Image for 01/19/2021 (size: 159kB)
+[!before APOD loading](https://github.com/SaqifAbrar/shopify-challenge/blob/main/readme/before-APOD-load.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+#### After optimized APOD Image for 01/19/2021 (size: 7.0kB)
+[!after APOD loading](https://github.com/SaqifAbrar/shopify-challenge/blob/main/readme/after-APOD-load.png)
 
-## Learn More
+### Beat Heart Like Component
+I wanted the UI to shout out and jump beyond it's borders from excitement
+[!heart beating like button](https://github.com/SaqifAbrar/shopify-challenge/blob/main/readme/like.gif)
 
-To learn more about Next.js, take a look at the following resources:
+### Skeleton Loading Animation
+A cool spacey blue loading animation for the post's skeleton while post(s) are loading
+[!loading animation](https://github.com/SaqifAbrar/shopify-challenge/blob/main/readme/skeleton-load.gif)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Backend Challenge Notes
+1. Please use Google Chrome for the best experience possible. Due to time constraints, front-end component logic is a little rushed.
+2. A database was not used (also for time constraints) and I used [Fake Store API](https://fakestoreapi.com/) as a mock database for CRUD functionality
+3. You may have to refresh upon entering the backend challenge for the items to render
+4. You may have to press the CSV button a few times. It will prompt you to download a CSV file, but it may open new tabs so please press it again.
+5. The folders you should view is /pages/api, /pages/backend, and /modules/backend
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### I'm very sorry I could not give you a polished experience, but I do believe that I've made this with a design oriented approach, for the project architecture, API and the frontend design
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
