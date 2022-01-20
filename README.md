@@ -38,6 +38,11 @@ I wanted the UI to shout out and jump beyond it's borders from excitement
 A cool spacey blue loading animation for the post's skeleton while post(s) are loading
 [!loading animation](https://github.com/SaqifAbrar/shopify-challenge/blob/main/readme/skeleton-load.gif)
 
+### Additional Notes
+
+1. Due to time constraints, I was not able to implement the mobile design. The only responsive aspect is font and image sizing. I'm very sorry for the inconvenience :(
+2. I also included the backend in the website. It made viewing the backend components much easier as I created global styling with Sass which made it easier to expand and create more consistent elements;
+
 ## Backend Challenge Notes
 
 [Backend Challenge Link](https://docs.google.com/document/d/1z9LZ_kZBUbg-O2MhZVVSqTmvDko5IJWHtuFmIu_Xg1A/edit)
@@ -50,7 +55,3 @@ A cool spacey blue loading animation for the post's skeleton while post(s) are l
 
 ## Final Message
 ### I'm very sorry I could not give you a polished experience, but I do believe that I've made this with a design oriented approach, for the project architecture, API and the frontend design. I hope you enjoy it and have a fantastic day :) 
-
-
-
-
