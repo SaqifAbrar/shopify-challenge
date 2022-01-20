@@ -25,10 +25,10 @@ Website: https://shopify-challenge-three.vercel.app/
 I spent some time to optimize the image, shrinking down file size making the app feel more responsive, quicker and less data demanding for all the requests
 
 #### Before optimized APOD Image for 01/19/2021 (size: 159kB)
-[!before APOD loading](https://github.com/SaqifAbrar/shopify-challenge/blob/main/readme/before-APOD-load.png)
+![before APOD loading](https://github.com/SaqifAbrar/shopify-challenge/blob/main/readme/before-APOD-load.png)
 
 #### After optimized APOD Image for 01/19/2021 (size: 7.0kB)
-[!after APOD loading](https://github.com/SaqifAbrar/shopify-challenge/blob/main/readme/after-APOD-load.png)
+![after APOD loading](https://github.com/SaqifAbrar/shopify-challenge/blob/main/readme/after-APOD-load.png)
 
 ### Beat Heart Like Component
 I wanted the UI to shout out and jump beyond it's borders from excitement
