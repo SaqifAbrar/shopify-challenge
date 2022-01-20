@@ -17,8 +17,28 @@ export default function ItemCard({ item, onChangeState }) {
 					<p>{description}</p>
 				</div>
 				<div className={styles.btnContainer}>
-					<button onClick={() => onChangeState("UPDATE", item)}>UPDATE</button>
-					<button onClick={() => onChangeState("DELETE", item)}>DELETE</button>
+					<button
+						className='button-default'
+						onClick={() => onChangeState("UPDATE", item)}
+						style={{
+							margin: "1vw 1vw 0 0",
+							color: "#F7DC8B",
+							borderColor: "#F7DC8B",
+						}}
+					>
+						UPDATE
+					</button>
+					<button
+						className='button-default'
+						onClick={() => onChangeState("DELETE", item)}
+						style={{
+							margin: "1vw 1vw 0 0",
+							color: "#C23A22",
+							borderColor: "#C23A22",
+						}}
+					>
+						DELETE
+					</button>
 				</div>
 			</div>
 		</div>

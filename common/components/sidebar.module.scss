@@ -2,15 +2,22 @@
 	width: 30%;
 	top: 0;
 	position: sticky;
+	padding: 5%;
 	height: 100vh;
 	color: $primary-font-color;
 	background-color: $nero;
 
 	ul {
+		padding: 0;
 		list-style-type: none;
 	}
 
 	li {
+		margin: 2.5% 0;
 		width: auto;
+	}
+
+	a {
+		font-weight: $bold;
 	}
 }

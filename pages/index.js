@@ -13,8 +13,19 @@ export default function Home() {
 			</Head>
 
 			<main className={styles.main}>
-				<h1 className={styles.title}>
-					{`Welcome to Saqif Abrar's Shopify Challenge!`}
+				<h1
+					className={styles.title}
+					style={{ fontFamily: "Montserrat, sans-serif" }}
+				>
+					{`Welcome to Saqif Abrar's`}
+					<span style={{ margin: "2.5% 0", color: "#95BF46" }}>
+						<h1
+							style={{ fontFamily: "Montserrat, sans-serif", fontSize: "6vw" }}
+						>
+							Shopify
+						</h1>
+					</span>
+					{`Challenge!`}
 				</h1>
 
 				<p className={styles.description}>
@@ -29,7 +40,7 @@ export default function Home() {
 				<div className={styles.grid}>
 					<a href='/backend' className={styles.card}>
 						<h2>Backend &rarr;</h2>
-						<p>{`Shopify Backend Intern Challenge <UPDATING>`}</p>
+						<p>Shopify Backend Intern Challenge</p>
 					</a>
 
 					<a href='/frontend' className={styles.card}>

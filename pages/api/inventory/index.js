@@ -16,7 +16,7 @@ dbConnect();
     For future tasks such as being able to selectively choose warehouses,
     the current inventory folder under api can be nested in an inventory folder
     which is where you would put the dbConnect() function. This folder structure
-    allows for a more flexible & scalable approach 
+    allows for a more flexible & scalable approach and expandability for API routes
   */
 }
 

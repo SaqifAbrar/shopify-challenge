@@ -1,6 +1,10 @@
 const path = require("path");
 module.exports = {
 	reactStrictMode: true,
+	images: {
+		loader: "default",
+		domains: ["apod.nasa.gov", "mars.nasa.gov"],
+	},
 	redirects: async () => {
 		return [
 			{

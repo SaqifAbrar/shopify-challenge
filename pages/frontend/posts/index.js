@@ -24,5 +24,5 @@ export async function getServerSideProps(context) {
 }*/
 
 Posts.getLayout = function getLayout(page) {
-	return <Layout>{page}</Layout>;
+	return <Layout name={"Spacetagram"}>{page}</Layout>;
 };
