@@ -1,10 +1,11 @@
 # Shopify Developer Challenges
 
-###Table of Contents
-Prerequisites
-Installation
-Frontend Challenge Features
-Backend Challenge Notes
+### Table of Contents
+1. [Prerequisites](#prerequisites)
+2. [Installation](#installation-instruction)
+3. [Frontend Challenge Features](#frontend-challenge-features)
+4. [Backend Challenge Notes](#backend-challenge-notes)
+5. [Final Message](#final-message)
 
 ## Prerequisites
 1. Node.JS & npm must be installed (latest version recommended)
@@ -40,7 +41,8 @@ A cool spacey blue loading animation for the post's skeleton while post(s) are l
 4. You may have to press the CSV button a few times. It will prompt you to download a CSV file, but it may open new tabs so please press it again.
 5. The folders you should view is /pages/api, /pages/backend, and /modules/backend
 
-### I'm very sorry I could not give you a polished experience, but I do believe that I've made this with a design oriented approach, for the project architecture, API and the frontend design
+## Final Message
+### I'm very sorry I could not give you a polished experience, but I do believe that I've made this with a design oriented approach, for the project architecture, API and the frontend design. I hope you enjoy it and have a fantastic day :) 
 
 
 
