@@ -32,11 +32,11 @@ I spent some time to optimize the image, shrinking down file size making the app
 
 ### Beat Heart Like Component
 I wanted the UI to shout out and jump beyond it's borders from excitement
-[!heart beating like button](https://github.com/SaqifAbrar/shopify-challenge/blob/main/readme/like.gif)
+![heart beating like button](https://github.com/SaqifAbrar/shopify-challenge/blob/main/readme/like.gif)
 
 ### Skeleton Loading Animation
 A cool spacey blue loading animation for the post's skeleton while post(s) are loading
-[!loading animation](https://github.com/SaqifAbrar/shopify-challenge/blob/main/readme/skeleton-load.gif)
+![loading animation](https://github.com/SaqifAbrar/shopify-challenge/blob/main/readme/skeleton-load.gif)
 
 ### Additional Notes
 
